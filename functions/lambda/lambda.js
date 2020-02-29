@@ -15,8 +15,6 @@ exports.handler = async (event, context, callback) => {
   // wait for the record to be added
   await db.collection('COLLECTION').add({
     name: 'Name',
-    company: 'Company',
-    sdgs: 'sdg'
   })
 
   // Return a callback witha 200 response and a message.
