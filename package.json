@@ -1,0 +1,14 @@
+{
+    "name": "functions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "test.js",
+    "scripts": {  
+        "functions": "cd functions/lambda && npm install"
+    },
+    "author": "Sezayi Arslan",
+    "dependencies": {
+        "firebase-admin": "^8.9.2"
+    }
+}
+
